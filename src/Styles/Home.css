@@ -1,0 +1,133 @@
+/* HERO SECTION */
+.hero {
+  width: 100%;
+  min-height: 70vh;
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  padding: 100px 0;
+  /* border: 2px solid white; */
+}
+
+/* CONTAINER */
+.hero-container {
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  
+}
+
+/* LEFT SIDE */
+.hero-left {
+  flex: 1;
+  animation: fadeInLeft 1s ease forwards;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 span {
+  color: #22c55e;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #22c55e;
+  color: #0f172a;
+  padding: 12px 28px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: #16a34a;
+  transform: translateY(-3px);
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background: #1e293b;
+}
+
+/* RIGHT IMAGE */
+.hero-right {
+  flex: 1;
+  animation: fadeInRight 1s ease forwards;
+}
+
+.hero-right img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* ANIMATIONS */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-left h1 {
+    font-size: 36px;
+  }
+}

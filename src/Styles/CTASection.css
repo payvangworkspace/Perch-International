@@ -1,0 +1,125 @@
+.cta {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  padding: 120px 20px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.cta-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.cta h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.cta p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+/* BUTTONS */
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta-primary {
+  background: #0f172a;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.cta-primary:hover {
+  transform: translateY(-3px);
+  background: #111827;
+}
+
+.cta-secondary {
+  background: transparent;
+  border: 2px solid #0f172a;
+  color: #0f172a;
+  padding: 14px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.cta-secondary:hover {
+  background: #0f172a;
+  color: white;
+}
+.cta {
+  padding: 120px 20px;
+  background: #0b1a2f; /* match your navbar dark tone */
+  text-align: center;
+  color: white;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.cta-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.cta h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.cta p {
+  font-size: 18px;
+  color: #9ca3af;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+/* BUTTONS */
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta-primary {
+  background: #22c55e;
+  color: #0f172a;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.cta-primary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(34,197,94,0.4);
+}
+
+.cta-secondary {
+  border: 2px solid #22c55e;
+  color: #22c55e;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.cta-secondary:hover {
+  background: #22c55e;
+  color: #0f172a;
+}
