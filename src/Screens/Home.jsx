@@ -22,7 +22,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <ServicesSection />
-      <WhyChooseUs />
+       <WhyChooseUs />
       <StatsSection />
       <Testimonials />
       <CTASection />

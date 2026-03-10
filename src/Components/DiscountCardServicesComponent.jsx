@@ -32,9 +32,9 @@ function DiscountCardServicesComponent() {
 
 
         {/* RIGHT CONTENT */}
-        <div className="service-content">
+        <div className="dx-service-content">
 
-          <h1>
+          <h1 className="service-title">
             Discount Card <span>Services</span>
           </h1>
 

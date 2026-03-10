@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
-import "../Styles/LoyaltyCardServicesComponent.css";
+import "../Styles/CommercialBrokerageComponent.css";
 
 function FinancialConsultingComponent() {
   return (
-    <section className="service-page">
+    <section className="cb-page">
 
-      <div className="service-container">
+      <div className="cb-container">
 
         {/* LEFT SIDEBAR */}
-        <aside className="service-sidebar">
+        <aside className="cb-sidebar">
 
           <h3>Our Services</h3>
 
@@ -30,15 +30,14 @@ function FinancialConsultingComponent() {
 
         </aside>
 
-
         {/* RIGHT CONTENT */}
-        <div className="service-content">
+        <div className="cb-content">
 
           <h1>
             Financial <span>Consulting</span>
           </h1>
 
-          <p className="service-intro">
+          <p className="cb-intro">
             At <strong>Perch International</strong>, our Financial Consulting
             services are designed to help businesses and individuals make
             confident financial decisions. We provide expert guidance,
@@ -46,11 +45,10 @@ function FinancialConsultingComponent() {
             sustainable growth and long‑term financial stability.
           </p>
 
-
           {/* FEATURES */}
 
-          <div className="service-feature">
-            <div className="service-icon">✓</div>
+          <div className="cb-feature">
+            <div className="cb-icon">✓</div>
 
             <div>
               <h4>Financial Strategy Planning</h4>
@@ -61,9 +59,8 @@ function FinancialConsultingComponent() {
             </div>
           </div>
 
-
-          <div className="service-feature">
-            <div className="service-icon">✓</div>
+          <div className="cb-feature">
+            <div className="cb-icon">✓</div>
 
             <div>
               <h4>Business Financial Advisory</h4>
@@ -74,9 +71,8 @@ function FinancialConsultingComponent() {
             </div>
           </div>
 
-
-          <div className="service-feature">
-            <div className="service-icon">✓</div>
+          <div className="cb-feature">
+            <div className="cb-icon">✓</div>
 
             <div>
               <h4>Investment Guidance</h4>
@@ -87,9 +83,8 @@ function FinancialConsultingComponent() {
             </div>
           </div>
 
-
-          <div className="service-feature">
-            <div className="service-icon">✓</div>
+          <div className="cb-feature">
+            <div className="cb-icon">✓</div>
 
             <div>
               <h4>Budget & Cost Optimization</h4>
@@ -100,7 +95,6 @@ function FinancialConsultingComponent() {
               </p>
             </div>
           </div>
-
 
         </div>
 

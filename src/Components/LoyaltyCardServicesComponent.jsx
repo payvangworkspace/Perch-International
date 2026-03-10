@@ -32,7 +32,7 @@ function LoyaltyCardServicesComponent() {
 
 
         {/* RIGHT CONTENT */}
-        <div className="service-content">
+        <div className="dx-service-content">
 
           <h1>
             Loyalty Card <span>Services</span>

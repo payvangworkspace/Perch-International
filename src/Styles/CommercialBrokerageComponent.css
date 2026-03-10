@@ -190,3 +190,117 @@ color:#1f2937;
 color:#6b7280;
 font-size:14px;
 }
+/* =========================
+   TABLET (992px)
+========================= */
+
+@media (max-width: 992px){
+
+.cb-container{
+flex-direction:column;
+gap:30px;
+}
+
+.cb-sidebar{
+width:100%;
+}
+
+}
+
+/* =========================
+   SMALL TABLET (768px)
+========================= */
+
+@media (max-width: 768px){
+
+.cb-page{
+padding:60px 20px;
+}
+
+.cb-content h1{
+font-size:30px;
+}
+
+.cb-feature{
+gap:15px;
+}
+
+.cb-icon{
+width:36px;
+height:36px;
+font-size:18px;
+}
+
+}
+
+/* =========================
+   MOBILE (600px)
+========================= */
+
+@media (max-width: 600px){
+
+.cb-sidebar{
+padding:20px;
+}
+
+.cb-sidebar a{
+font-size:14px;
+}
+
+.cb-content h1{
+font-size:26px;
+}
+
+.cb-intro,
+.cb-description{
+font-size:15px;
+}
+
+.cb-feature{
+flex-direction:row;
+gap:12px;
+}
+
+.cb-feature h4{
+font-size:16px;
+}
+
+.cb-feature p{
+font-size:14px;
+}
+
+}
+
+/* =========================
+   SMALL MOBILE (400px)
+========================= */
+
+@media (max-width: 400px){
+
+.cb-page{
+padding:50px 15px;
+}
+
+.cb-content h1{
+font-size:22px;
+}
+
+.cb-sidebar a{
+font-size:13px;
+}
+
+.cb-feature{
+gap:10px;
+}
+
+.cb-icon{
+width:32px;
+height:32px;
+font-size:16px;
+}
+
+.cb-feature p{
+font-size:13px;
+}
+
+}

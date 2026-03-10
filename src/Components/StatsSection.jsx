@@ -7,17 +7,18 @@ function Counter({ target, label }) {
   useEffect(() => {
     let start = 0;
     const duration = 2000;
-    const increment = target / (duration / 16);
+    const stepTime = Math.abs(Math.floor(duration / target));
 
     const timer = setInterval(() => {
-      start += increment;
+      start += 1;
+
       if (start >= target) {
         setCount(target);
         clearInterval(timer);
       } else {
-        setCount(Math.floor(start));
+        setCount(start);
       }
-    }, 16);
+    }, stepTime);
 
     return () => clearInterval(timer);
   }, [target]);
@@ -34,7 +35,6 @@ function StatsSection() {
   return (
     <section className="stats">
 
-      {/* SECTION HEADER */}
       <div className="stats-header">
         <h2>Delivering Measurable Impact Worldwide</h2>
         <p>
@@ -44,7 +44,6 @@ function StatsSection() {
         </p>
       </div>
 
-      {/* STATS GRID */}
       <div className="stats-container">
         <Counter target={250} label="Global Clients" />
         <Counter target={15} label="Years of Experience" />
