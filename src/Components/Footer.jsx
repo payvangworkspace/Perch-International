@@ -37,9 +37,27 @@ function Footer() {
         {/* Column 4 */}
         <div className="footer-col">
           <h4>Contact Info</h4>
-          <p>Email: info@perch-international.com</p>
-          <p>Phone: +971 00 000 0000</p>
-          <p>Location: Dubai, UAE</p>
+
+          <p>
+            Email:{" "}
+            <a href="mailto:lapwork07@gmail.com" className="footer-link">
+              lapwork07@gmail.com
+            </a>
+          </p>
+
+          <p>
+            Phone:{" "}
+            <a href="tel:00971552495008" className="footer-link">
+              00971552495008
+            </a>
+          </p>
+
+          <p>
+            Location: FDRK1945 Compass Building, Al Shohada Road,<br />
+            Al Hamra Industrial Zone-FZ,<br />
+            Ras Al Khaimah, United Arab Emirates
+          </p>
+
         </div>
 
       </div>

@@ -64,3 +64,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+.footer-link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link:hover{
+  color: #0077ff;
+}

@@ -221,3 +221,14 @@ font-size:12px;
 margin-top:5px;
 display:block;
 }
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.contact-link:hover {
+  color: white;
+  text-decoration: underline;
+}

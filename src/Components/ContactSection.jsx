@@ -86,19 +86,28 @@ function ContactSection() {
           <div className="con-info-block">
             <h4>Head Office</h4>
             <p>
-              Office #312 Makateb Building, Port Saeed,<br />
-              Airport Road, Dubai, UAE
+              FDRK1945 Compass Building, Al Shohada Road,<br />
+              Al Hamra Industrial Zone-FZ,<br />
+              Ras Al Khaimah, United Arab Emirates
             </p>
           </div>
 
           <div className="con-info-block">
             <h4>Phone</h4>
-            <p>+971 56 256 6887</p>
+            <p>
+              <a href="tel:00971552495008" className="contact-link">
+                00971552495008
+              </a>
+            </p>
           </div>
 
           <div className="con-info-block">
             <h4>Email</h4>
-            <p>info@perch-international.com</p>
+            <p>
+              <a href="mailto:lapwork07@gmail.com" className="contact-link">
+                lapwork07@gmail.com
+              </a>
+            </p>
           </div>
 
         </div>
@@ -163,7 +172,6 @@ function ContactSection() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-
             <motion.div
               className="popup-box success"
               initial={{ scale: 0.7 }}
@@ -181,7 +189,6 @@ function ContactSection() {
               </p>
 
             </motion.div>
-
           </motion.div>
         )}
       </AnimatePresence>
@@ -195,7 +202,6 @@ function ContactSection() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-
             <motion.div
               className="popup-box error-popup"
               initial={{ scale: 0.7 }}
@@ -208,7 +214,6 @@ function ContactSection() {
               <p>Please fill all fields correctly.</p>
 
             </motion.div>
-
           </motion.div>
         )}
       </AnimatePresence>
